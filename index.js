@@ -1,2 +1,2 @@
 import './main.css'
-import './memory'
+import './memory.js'
