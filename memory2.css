@@ -1,0 +1,26 @@
+var hiddenNumber= document.querySelector('#gameBoxes');
+var cardFront = document.querySelector('#gameBoxesFront');
+hiddenNumber.addEventListener('click', function (event) {
+    }else if (cardFront.style.display == "") {
+        cardFront.style.display = "none";
+          hiddenNumber.innerHTML = `<div class="cardFront">${item2}</div>`;
+      } else {
+        cardFront.style.display = "";
+          hiddenNumber.innerHTML = `<div class="card">${item}</div>`;
+      }
+    }
+  );
+
+  /* // Toggle visibility ORIGINAL
+var cardFront= document.querySelector('#gameBoxesFront');
+var hiddenNumber = document.querySelector('#gameBoxes');
+cardFront.addEventListener('click', function (event) {
+      if (hiddenNumber.style.display == "") {
+        hiddenNumber.style.display = "none";
+          cardFront.innerHTML = `<div class="card">${item}</div>`;
+      } else {
+        hiddenNumber.style.display = "";
+          cardFront.innerHTML = `<div class="cardFront">${item2}</div>`;
+      }
+    }
+  ); */

@@ -6,11 +6,23 @@ body {
     justify-content: center;
 }
 
+/* #hiddenNumber {
+    display: none;
+} */
+
+
 #gameBoxes {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
+    /* display: none; */
+}
 
+#gameBoxesFront {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    
 }
 
 .card {
@@ -20,5 +32,14 @@ body {
     margin: 10px;
     background-color:  #E8a87c;
     color: #c38d9e;
+
 }
 
+.cardFront {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color:  #E8a87c;
+    color: #c38d9e;
+}
